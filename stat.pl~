@@ -1,0 +1,6 @@
+#!/bin/perl
+print "Enter stat:\t";
+chomp($in=<STDIN>);
+$in -= 10;
+int($in /= 2);
+print $in ."\n";
