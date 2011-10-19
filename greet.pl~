@@ -2,7 +2,7 @@
 sub greet {
 	push @names, @_;
 	my $nameNum = @names;
-	if ($nameNum == 1){
+	if ($nameNum == 0){
 		print "Hi @{names}! You are the first one here!\n";
 	} else {
 		print "Hi $names[$#names]! $names[0] is also here!\n";
